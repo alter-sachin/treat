@@ -16,3 +16,4 @@ Spree.config do |config|
 end
 
 Spree.user_class = "Spree::User"
+config.allow_ssl_in_production = false
